@@ -8,7 +8,9 @@ HTML = """
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Expert Services | Modern Strategy & Execution</title>
+
+  <title>Your Name | Portfolio for Recruiters</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -226,13 +228,15 @@ HTML = """
 <body>
   <header>
     <div class="container nav-wrap">
-      <div class="brand"><span class="dot"></span> Your Name · Expert Consulting</div>
+
+      <div class="brand"><span class="dot"></span> Your Name · Product & Software Portfolio</div>
       <nav>
-        <a href="#services">Services</a>
-        <a href="#results">Results</a>
-        <a href="#approach">Approach</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
       </nav>
-      <a class="btn btn-primary" href="#contact">Book a Call</a>
+      <a class="btn btn-primary" href="#contact">Contact Me</a>
+
     </div>
   </header>
 
@@ -240,65 +244,71 @@ HTML = """
     <section class="hero container">
       <div class="hero-grid">
         <div>
-          <div class="eyebrow">Built for ambitious teams</div>
-          <h1>Turn your expertise into premium client demand.</h1>
+
+          <div class="eyebrow">Open to full-time opportunities</div>
+          <h1>I build clean, scalable products that solve real business problems.</h1>
           <p class="lead">
-            I help founders and operators clarify their offer, position their value, and execute a modern go-to-market
-            strategy that drives measurable growth.
+            I'm a results-oriented professional focused on software delivery, product thinking, and cross-functional
+            collaboration. This page is designed for recruiters and hiring teams evaluating my fit for impactful roles.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Start Your Project</a>
-            <a class="btn btn-ghost" href="#results">See Case Studies</a>
+            <a class="btn btn-primary" href="#contact">Schedule an Interview</a>
+            <a class="btn btn-ghost" href="#projects">View Featured Projects</a>
           </div>
 
-          <div class="metrics" id="results">
-            <div class="metric"><strong>120+</strong><span>Engagements delivered</span></div>
-            <div class="metric"><strong>94%</strong><span>Client retention rate</span></div>
-            <div class="metric"><strong>3.2x</strong><span>Average ROI uplift</span></div>
+          <div class="metrics" id="projects">
+            <div class="metric"><strong>10+</strong><span>Production-grade projects</span></div>
+            <div class="metric"><strong>5+</strong><span>Years in technical roles</span></div>
+            <div class="metric"><strong>100%</strong><span>Commitment to quality and ownership</span></div>
           </div>
         </div>
 
-        <aside class="feature-panel" id="approach">
+        <aside class="feature-panel" id="skills">
           <div class="feature">
-            <h3>Strategic Positioning</h3>
-            <p>Differentiate your offer so premium clients instantly understand your value.</p>
+            <h3>Engineering Execution</h3>
+            <p>Translate ambiguous requirements into reliable, maintainable solutions.</p>
           </div>
           <div class="feature">
-            <h3>Revenue Systems</h3>
-            <p>Build repeatable acquisition and conversion systems that scale with confidence.</p>
+            <h3>Product Mindset</h3>
+            <p>Prioritize user outcomes, measurable impact, and iterative improvements.</p>
           </div>
           <div class="feature">
-            <h3>Execution Partnership</h3>
-            <p>Get senior-level support from strategy through implementation.</p>
+            <h3>Collaboration & Leadership</h3>
+            <p>Partner effectively with design, product, and stakeholders to deliver on time.</p>
+
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section container" id="services">
+
+    <section class="section container" id="experience">
       <div class="cards">
         <article class="card">
-          <h4>Offer Design</h4>
-          <p>Create high-value service packages aligned to your best-fit clients.</p>
+          <h4>End-to-End Delivery</h4>
+          <p>From planning to deployment, I ship features with clear business value.</p>
         </article>
         <article class="card">
-          <h4>Authority Marketing</h4>
-          <p>Build trust with modern content, social proof, and demand-generation campaigns.</p>
+          <h4>System Design Thinking</h4>
+          <p>I design pragmatic architectures that balance speed, reliability, and scalability.</p>
         </article>
         <article class="card">
-          <h4>Sales Enablement</h4>
-          <p>Streamline your pipeline with messaging, objections handling, and conversion assets.</p>
+          <h4>Communication</h4>
+          <p>I communicate tradeoffs clearly and keep teams aligned around priorities.</p>
         </article>
         <article class="card" id="contact">
-          <h4>Private Advisory</h4>
-          <p>One-on-one advisory for leaders who want rapid, focused execution and outcomes.</p>
+          <h4 id="contact">What I'm Looking For</h4>
+          <p>Roles where I can own meaningful outcomes, learn fast, and contribute to a strong team culture.</p>
+
         </article>
       </div>
     </section>
   </main>
 
   <footer>
-    © 2026 · Your Name Consulting · Built to convert expertise into growth.
+
+    © 2026 · Your Name · Portfolio for Recruiters · No sensitive personal data included.
+
   </footer>
 </body>
 </html>
