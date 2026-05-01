@@ -8,7 +8,9 @@ HTML = """
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Your Name | Portfolio for Recruiters</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -226,6 +228,7 @@ HTML = """
 <body>
   <header>
     <div class="container nav-wrap">
+
       <div class="brand"><span class="dot"></span> Your Name · Product & Software Portfolio</div>
       <nav>
         <a href="#experience">Experience</a>
@@ -233,6 +236,7 @@ HTML = """
         <a href="#skills">Skills</a>
       </nav>
       <a class="btn btn-primary" href="#contact">Contact Me</a>
+
     </div>
   </header>
 
@@ -240,6 +244,7 @@ HTML = """
     <section class="hero container">
       <div class="hero-grid">
         <div>
+
           <div class="eyebrow">Open to full-time opportunities</div>
           <h1>I build clean, scalable products that solve real business problems.</h1>
           <p class="lead">
@@ -270,10 +275,12 @@ HTML = """
           <div class="feature">
             <h3>Collaboration & Leadership</h3>
             <p>Partner effectively with design, product, and stakeholders to deliver on time.</p>
+
           </div>
         </aside>
       </div>
     </section>
+
 
     <section class="section container" id="experience">
       <div class="cards">
@@ -292,13 +299,16 @@ HTML = """
         <article class="card" id="contact">
           <h4 id="contact">What I'm Looking For</h4>
           <p>Roles where I can own meaningful outcomes, learn fast, and contribute to a strong team culture.</p>
+
         </article>
       </div>
     </section>
   </main>
 
   <footer>
+
     © 2026 · Your Name · Portfolio for Recruiters · No sensitive personal data included.
+
   </footer>
 </body>
 </html>
